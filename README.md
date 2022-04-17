@@ -1,1 +1,3 @@
 # WebTeknolojileriProjeOdev
+-->kısa bilgi dökümanı
+
