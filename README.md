@@ -1,5 +1,5 @@
 # WebTeknolojileriProjeOdev
--->kısa bilgi dökümanı
+-->kısa bilgi dökümanı;
 ödevin giriş sayfasında ödevde istenilen 6 tane sayfanın butan şeklinde 6 tane linki bulunuyor.
 bu linkler; 
 hakkımda, kendimi tanıttığım sayfa.
