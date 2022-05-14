@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="TR">
+    <head>
+        <title>İletişim</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Eren Fındık'ın Proje Ödevi">
+        <link rel="stylesheet" href="style.css">
+        <style>
+           
+        </style>
+    </head>
+
+    <body id="iletisimbody">
+        <div id="iletisim">
+            <h2>Benimle iletişime geçmek ister misiniz?</h2>
+            <form action="iletisim.php" name="form" onsubmit="return validateForm()" method="post">
+                <input type="text" name="adsoyad" class="iletisimm" placeholder="lütfen isim soyisim giriniz">
+                <input type="email" name="email" class="iletisimm" placeholder="email giriniz">
+                <input type="tel" name="telno" class="iletisimm" placeholder="telefon giriniz (555 555 5555)">
+                <textarea name="mesaj" id="" cols="30" rows="10" class="iletisimm" placeholder="lütfen mesajınızı buraya yazınız"></textarea>
+                <br><br>
+                <input type="submit" class="btniletisim"> <input type="reset" class="btniletisim">
+                
+            </form>
+        </div>
+
+        <script>
+            function validateForm(){
+                var x = document.forms["form"]["adsoyad"].value;
+                if(x == ""){
+                    alert("İsim alanı boş olamaz!");
+                    return false;
+                }
+                
+                var x = document.forms["form"]["email"].value;
+                if(x == ""){
+                    alert("Email alanı boş olamaz!");
+                    return false;
+                }
+
+                var regex = /^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+.)+([.])+[a-zA-Z0-9.-]{2,4}$/;
+	            if (regex.test(x)==false){
+                    alert("Mail adresi geçersiz!");
+                    return false;
+                }
+            }
+        </script>
+    </body>
+</html>
