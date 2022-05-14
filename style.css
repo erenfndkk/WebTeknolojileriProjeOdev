@@ -1,0 +1,404 @@
+/* CSS Dosyası */
+/* boşlukları sıfırlamak için */
+
+/*özgeçmiş sayfası*/
+#Ozgecmisbody{
+    background-color: antiquewhite;
+}
+#sayfaOzgecmis{
+    width: 900px;
+    background-color: white;
+    min-height: 1000px;
+    margin: auto;
+}
+#bannerOzgecmis{
+    width: 898px;
+    height: 100px;
+    
+    margin: auto;
+}
+#logo{
+    width: 100px;
+    height: 80px;
+   
+    background-color: yellow;
+    
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#anamenuOzgecmis{
+    width: 898px;
+    height: 30px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 24px;
+    position: relative;
+    left: 90px;
+}
+#icerikOzgecmis{
+    width: 558px;
+    min-height: 750px;
+    
+    float: left;
+}
+#yanmenuOzgecmis{
+    width: 338px;
+    min-height: 750px;
+    
+    float: left;
+}
+#altmenuOzgecmis{
+    width: 898px;
+    height: 70px;
+    
+    float: left;
+}
+#Ozgecmisİletisim{
+    position: relative;
+    left: 90px;
+    top: 20px;
+    width: 340px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#Ozgecmisİletisim P{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 24px;
+}
+#Ozgecmisİletisim table td{
+    width: 400px;
+    
+}
+#is{
+    width: 400px;
+    text-align: center;
+}
+#altmenuOzgecmis p{
+    position: relative;
+    left: 250px;
+}
+#yanmenuOzgecmisKisaBilgi{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    overflow: scroll;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+/*miras sayfası*/
+#miras{
+    width: 900px;
+    min-height: 600px;
+    background-color: rgb(201, 200, 184);
+    margin: auto;
+}
+#miras1{
+    width: 850px;
+    min-height: 600px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+#baslık{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+#konu{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    position: static;
+}
+#mirasfoot{
+   position: relative;
+   left: 230px;
+}
+/* Şehrim sayfası */
+#sayfaSehir{
+    background-color: rgb(189, 191, 192);
+}
+#bannerSehir{
+    width: 848px;
+    height: 100px;
+    border-style: none;
+    margin: auto;
+    background-image: url(resimler/cankiriBanner.jfif);
+}
+#icerikSehir{
+ 
+ width: 830px;
+ margin: auto;
+}
+#iceriksehir ul li{
+    list-style-type: none;
+}
+/*ilgi alan sayfası*/
+#ilgi{
+    width: 1000px;
+    min-height: 700px;
+    background-color: rgb(214, 209, 202);
+    margin: auto;
+    
+}
+.açıklama{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+ul li{
+    list-style-type: none;
+}
+/* login sayfası*/
+#loginbody{
+    background-image: url(resimler/indir\ \(2\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#login{
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+    opacity: 0.7;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 140px;
+    border-radius: 5px;
+    
+}
+.loginn{
+    width: 230px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+.btnlogin{
+    border-style: none;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: aqua;
+
+}
+.slides{
+    padding: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.slides *{
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+.slides input{display: none;}
+.slide-container{display: block;}
+
+.slide{
+    top: 0;
+    opacity: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    position: absolute;
+    transform: scale(0);
+    transition: all .7s ease-in-out;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+.nav label{
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+    transition: opacity .2s;
+    color: #fff;
+    font-size: 156px;
+    text-align: center;
+    line-height: 380px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119,119,199);
+}
+.slide:hover + .nav label{ opacity: 0.5; }
+.nav label:hover{opacity: 1;}
+.nav .next{right: 0;}
+input:checked + .slide-container .slide{
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label{display: block;}
+
+.nav-dots{
+    width: 100%;
+    bottom: 9px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+.nav-dots .nav-dot{
+    top: -5px;
+width: 11px;
+height: 11px;
+margin: 0 4px;
+position: relative;
+border-radius: 100%;
+display: inline-block;
+background-color: rgba(0,0,0,0.6);
+}
+.nav_dots .nav-dot:hover{
+cursor: pointer;
+background-color: rgba(0,0,0,0.8);
+}
+    input#img-1:checked ~ .nav-dots label#img-dot-1,
+    input#img-2:checked ~ .nav-dots label#img-dot-2,
+    input#img-3:checked ~ .nav-dots label#img-dot-3,
+    input#img-4:checked ~ .nav-dots label#img-dot-4,
+    input#img-5:checked ~ .nav-dots label#img-dot-5,
+    input#img-6:checked ~ .nav-dots label#img-dot-6{
+        background: rgba(0,0,0,0.8);
+    }
+
+
+
+/*iletişim sayfası*/
+#iletisimbody{
+    background-image: url(resimler/indir\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#iletisim{
+    background-color: rgb(59, 59, 192);
+    opacity: 0.6;
+    border-style: none;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+    top: 140px;
+    text-align: center;
+    padding: 10px;
+}
+.iletisimm{
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border-style: none;
+    border-radius: 13px;
+}
+.btniletisim{
+    padding: 10px;
+    margin: 5px;
+    border-style: none;
+    border-radius: 7px;
+}
+/*şablon sayfası*/
+#sayfa{
+    background-image: url(resimler/indir\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#anamenu{
+    width: 848px;
+    height: 50px;
+    
+    margin: auto;
+    position: relative;
+    right: 60px;
+    
+}
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu ul li{
+    background-color: coral;
+    border-style: solid;
+    border-width: 3px;
+    border-color: beige;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+    color: black;
+    position: relative;
+    left: 80px;
+}
+#anamenu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+#anamenu ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#sayfa{
+    width: 850px;
+    min-height: 600px;
+    
+    margin: auto;
+}
+#banner{
+    width: 848px;
+    height: 100px;
+    
+    margin: auto;
+    
+}
+/*hakkımda sayfası için*/
+#hakkımda{
+    background-color: rgb(218, 212, 206);
+    height: 2300px;
+}
+
+#hakkımda p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#hakkımda1{
+    width: 1000px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    margin: auto;
+}
